@@ -47,4 +47,195 @@ body {
 .instrument {
   text-align: center;
   padding-top: 30px;
+  position: relative;
+}
+
+.button {
+  background-color: cadetblue;
+  padding: 5px;
+  color: white;
+  position: absolute;
+  border-radius: 50%;
+  z-index: 5;
+  font-size: 20px;
+}
+
+.one {
+  right: 92%;
+  top: 32%;
+}
+
+.two {
+  right: 87.5%;
+  top: 32%;
+}
+
+.three {
+  right: 78.5%;
+  top: 32%;
+}
+
+.four {
+  right: 74%;
+  top: 32%;
+}
+
+.five {
+  right: 69.5%;
+  top: 32%;
+}
+
+.six {
+  right: 60%;
+  top: 32%;
+}
+
+.seven {
+  right: 55.5%;
+  top: 32%;
+}
+
+.eight {
+  right: 46.7%;
+  top: 32%;
+}
+
+.nine {
+  right: 42%;
+  top: 32%;
+}
+
+.zero {
+  right: 37.4%;
+  top: 32%;
+}
+
+.q {
+  right: 28.2%;
+  top: 32%;
+}
+
+.w {
+  right: 23.5%;
+  top: 32%;
+}
+
+.e {
+  right: 14.5%;
+  top: 32%;
+}
+
+.r {
+  right: 10%;
+  top: 32%;
+}
+
+.t {
+  right: 5.5%;
+  top: 32%;
+}
+
+.a {
+  right: 94%;
+  top: 70%;
+}
+
+.s {
+  right: 90%;
+  top: 70%;
+}
+
+.d {
+  right: 85%;
+  top: 70%;
+}
+
+.f {
+  right: 81%;
+  top: 70%;
+}
+
+.g {
+  right: 76%;
+  top: 70%;
+}
+
+.h {
+  right: 71.8%;
+  top: 70%;
+}
+
+.j {
+  right: 67.3%;
+  top: 70%;
+}
+
+.k {
+  right: 62.5%;
+  top: 70%;
+}
+
+.l {
+  right: 58%;
+  top: 70%;
+}
+
+.semi-colon {
+  right: 53.5%;
+  top: 70%;
+}
+
+.quotation {
+  right: 49%;
+  top: 70%;
+}
+
+.z {
+  right: 44.5%;
+  top: 70%;
+}
+
+.x {
+  right: 39.4%;
+  top: 70%;
+}
+
+.c {
+  right: 35%;
+  top: 70%;
+}
+
+.v {
+  right: 31%;
+  top: 70%;
+}
+
+.b {
+  right: 26%;
+  top: 70%;
+}
+
+.n {
+  right: 21%;
+  top: 70%;
+}
+
+.m {
+  right: 17%;
+  top: 70%;
+}
+
+.colon {
+  right: 13%;
+  top: 70%;
+}
+
+.stop {
+  right: 8%;
+  top: 70%;
+}
+
+.slash {
+  right: 4%;
+  top: 70%;
 }
