@@ -46,12 +46,12 @@ body {
 
 .instrument {
   text-align: center;
-  padding-top: 30px;
+  padding-top: 25px;
   position: relative;
 }
 
 .img {
-  width: 50%;
+  width: 65%;
 }
 
 .button {
@@ -64,57 +64,67 @@ body {
   font-size: 20px;
 }
 
-.x {
-  right: 50.8%;
-  top: 52%;
+.q {
+  right: 77.5%;
+  top: 65%;
 }
 
-.y {
-  right: 61%;
-  top: 13%;
-}
-
-.u {
-  right: 35%;
-  top: 18%;
-}
-
-.r {
-  right: 69%;
-  top: 29%;
+.w {
+  right: 74.5%;
+  top: 65%;
 }
 
 .e {
   right: 69%;
-  top: 20%;
+  top: 65%;
 }
 
-.c {
-  right: 69%;
-  top: 78%;
+.r {
+  right: 65%;
+  top: 65%;
+}
+
+.t {
+  right: 59.5%;
+  top: 65%;
+}
+
+.y {
+  right: 54.5%;
+  top: 65%;
+}
+
+.u {
+  right: 50.5%;
+  top: 65%;
+}
+
+.a {
+  right: 46.7%;
+  top: 65%;
 }
 
 .s {
-  right: 65%;
-  top: 38%;
+  right: 41.5%;
+  top: 65%;
 }
 
 .d {
-  right: 61%;
-  top: 38%;
+  right: 37%;
+  top: 65%;
+}
+
+.f {
+  right: 32%;
+  top: 65%;
 }
 
 .g {
-  right: 55%;
-  top: 32%;
+  right: 27.5%;
+  top: 65%;
 }
 
 .h {
-  right: 46%;
-  top: 32%;
-}
-
-.j {
-  right: 37%;
-  top: 52%;
+  right: 22%;
+  top: 65%;
 }

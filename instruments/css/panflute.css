@@ -46,12 +46,12 @@ body {
 
 .instrument {
   text-align: center;
-  padding-top: 30px;
+  padding-top: 25px;
   position: relative;
 }
 
 .img {
-  width: 50%;
+  width: 38%;
 }
 
 .button {
@@ -64,57 +64,77 @@ body {
   font-size: 20px;
 }
 
-.x {
-  right: 50.8%;
-  top: 52%;
+.q {
+  right: 65%;
+  top: 5%;
 }
 
-.y {
-  right: 61%;
-  top: 13%;
-}
-
-.u {
-  right: 35%;
-  top: 18%;
-}
-
-.r {
-  right: 69%;
-  top: 29%;
+.w {
+  right: 62.1%;
+  top: 5%;
 }
 
 .e {
-  right: 69%;
-  top: 20%;
+  right: 59.5%;
+  top: 5%;
 }
 
-.c {
-  right: 69%;
-  top: 78%;
+.r {
+  right: 57%;
+  top: 5%;
+}
+
+.t {
+  right: 54.2%;
+  top: 5%;
+}
+
+.y {
+  right: 51.2%;
+  top: 5%;
+}
+
+.u {
+  right: 48.5%;
+  top: 5%;
+}
+
+.i {
+  right: 46.5%;
+  top: 5%;
+}
+
+.a {
+  right: 44%;
+  top: 5%;
 }
 
 .s {
-  right: 65%;
-  top: 38%;
+  right: 42%;
+  top: 5%;
 }
 
 .d {
-  right: 61%;
-  top: 38%;
+  right: 40%;
+  top: 5%;
+}
+
+.f {
+  right: 38%;
+  top: 5%;
 }
 
 .g {
-  right: 55%;
-  top: 32%;
+  right: 36%;
+  top: 5%;
 }
 
 .h {
-  right: 46%;
-  top: 32%;
+  right: 34%;
+  top: 5%;
 }
 
 .j {
-  right: 37%;
-  top: 52%;
+  right: 32.5%;
+  top: 5%;
 }
