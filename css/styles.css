@@ -1,0 +1,110 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: whitesmoke;
+  /* overflow: hidden; */
+}
+
+.topnav {
+  position: fixed;
+  z-index: 10;
+  padding: 0px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  font-family: "Inter";
+}
+
+.link {
+  color: #e5e5cb;
+  text-decoration: none;
+}
+
+#hero {
+  width: 100%;
+  height: 100%;
+}
+
+.hero-image {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  z-index: -1;
+}
+
+.title {
+  font-family: "Cinzel Decorative", serif;
+  font-size: 100px;
+  font-weight: 100;
+  z-index: 2;
+  position: relative;
+  color: white;
+  text-align: center;
+  padding-top: 15%;
+}
+
+.nav {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  width: 100%;
+  padding-top: 40px;
+}
+
+.navlink {
+  color: #e5e5cb;
+  position: relative;
+  font-size: 17px;
+  text-decoration: none;
+  margin: 10px 100px;
+  text-transform: uppercase;
+  font-family: "Inter";
+}
+
+.neonText {
+  text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 42px #fff, 0 0 82px #fff,
+    0 0 92px #fff;
+  color: white;
+  text-align: center;
+}
+
+a {
+  position: relative;
+  color: #e5e5cb;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #e5e5cb;
+}
+
+a::before {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 100%;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #e5e5cb;
+  transform: scaleX(0);
+  transition: transform 0.6s ease;
+}
+
+a:hover::before {
+  transform: scaleX(1);
+}
+
+.tagline {
+  position: relative;
+  text-align: center;
+  color: #e5e5cb;
+  font-weight: 400;
+  font-family: "Forum";
+  padding-top: 15%;
+  font-size: 30px;
+}
