@@ -33,6 +33,7 @@ footer {
   align-items: center;
   width: 100%;
   font-family: "Inter";
+  backdrop-filter: blur(5px);
 }
 
 .link {
