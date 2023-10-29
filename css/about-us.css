@@ -4,8 +4,18 @@
 }
 
 body {
-  background-color: whitesmoke;
+  background-color: #e5e5cb;
   /* overflow: hidden; */
+}
+
+footer {
+  margin-top: 8%;
+  color: #e5e5cb;
+  text-align: center;
+  padding: 40px;
+  bottom: 0;
+  font-family: "Inter";
+  bottom: 0;
 }
 
 .topnav {
@@ -23,7 +33,7 @@ body {
 .link {
   color: #e5e5cb;
   text-decoration: none;
-  text-transform: uppercase;
+  margin-right: 90px;
 }
 
 #hero {
@@ -40,13 +50,31 @@ body {
 
 .title {
   font-family: "Cinzel Decorative", serif;
-  font-size: 75px;
+  font-size: 70px;
   font-weight: 100;
   z-index: 2;
   position: relative;
   color: white;
   text-align: center;
-  padding-top: 7%;
+  padding-top: 10%;
+}
+
+.nav {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  width: 100%;
+  padding-top: 40px;
+}
+
+.navlink {
+  color: #e5e5cb;
+  position: relative;
+  font-size: 17px;
+  text-decoration: none;
+  margin: 10px 100px;
+  text-transform: uppercase;
+  font-family: "Inter";
 }
 
 .neonText {
@@ -83,35 +111,21 @@ body {
   transform: scaleX(1);
 }
 
-#cards {
-  padding: 30px;
-}
-
-.row {
+.tagline {
+  position: relative;
   text-align: center;
+  color: #e5e5cb;
+  font-weight: 400;
+  font-family: "Forum";
+  padding: 5% 20%;
+  font-size: 30px;
 }
 
-.card {
-  margin: 30px 40px;
-  border-radius: 50px;
-  background-color: transparent;
-  height: 250px;
-  width: 250px;
-}
-
-.card-img-top {
-  border-radius: 40px;
-}
-
-.hover:hover {
-  transform: translateY(0);
-  box-shadow: inset 0 0 20px #e5e5cb, inset 10px 0 10px #e5e5cb,
-    inset -20px 0 30px #e5e5cb, inset 20px 0 100px #e5e5cb,
-    inset -20px 0 100px #e5e5cb, 0 0 10px #e5e5cb, -10px 0 30px #e5e5cb,
-    10px 0 30px #e5e5cb;
-  background-color: transparent;
-  transform: scale(1.15);
-  transition: 0.6s;
+.neonText1 {
+  text-shadow: 0 0 10px #e5e5cb, 0 0 20px #e5e5cb, 0 0 42px #e5e5cb,
+    0 0 82px #e5e5cb, 0 0 92px #e5e5cb;
+  color: #e5e5cb;
+  text-align: center;
 }
 
 ::-webkit-scrollbar {

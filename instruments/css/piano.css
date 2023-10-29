@@ -303,3 +303,18 @@ footer {
   font-weight: 400;
   line-height: 30px; /* 83.333% */
 }
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  background-color: rgb(0, 0, 0);
+  border-radius: 1px;
+}
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(transparent, #d1d1a8);
+  border-radius: 1px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(transparent, #4f4f42);
+}
