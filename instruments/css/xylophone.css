@@ -9,6 +9,19 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  display: flex;
+  flex-direction: column;
+}
+
+footer {
+  margin-top: 10%;
+  color: #e5e5cb;
+  text-align: center;
+  padding: 40px;
+  bottom: 0;
+  font-family: "Inter";
+  bottom: 0;
+  width: 100%;
 }
 
 .topnav {
@@ -25,6 +38,7 @@ body {
 .link {
   color: #e5e5cb;
   text-decoration: none;
+  text-transform: uppercase;
 }
 
 .link {
